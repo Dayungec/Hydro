@@ -1,0 +1,23 @@
+﻿#ifndef DATASOURCES_H
+#define DATASOURCES_H
+#include "histogram.h"
+#include "colortable.h"
+#include "tabledesc.h"
+#include "selectionset.h"
+#include "queryfilter.h"
+#include "featurecursor.h"
+#include "dataset.h"
+#include "memdataarray.h"
+#include "featureclasstool.h"
+#include "rasterbandtool.h"
+#include "display.h"
+#include "shapfilefeatureclass.h"
+#include "filerasterdataset.h"
+#include "memfeatureclass.h"
+#include "memrasterdataset.h"
+#include "streamrasterdataset.h"
+#include "spatialindexer.h"
+#include "rastertilesdatasource.h"
+#include "rasterpyramiddatasource.h"
+#include "featurepyramiddatasource.h"
+#endif // DATASOURCES_H
